@@ -1,0 +1,49 @@
+body {
+  background: url(Background.png);
+  background-repeat: repeat;
+  background-size: 100% auto;
+  font-family: sans-serif;
+  color: white;
+}
+img {
+  background-color: #Ffffff;
+  width: 95%;
+}
+  main {
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  border: 2px dotted white;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  height: 99.7%;
+  text-align: center;
+}
+ul {
+  text-align: left;
+}
+  a:visited { 
+	color: #9ADDFB
+}
+#Items {
+  list-style-type: none;
+}
+a > img {
+	  width: 30%;
+}
+em { 
+animation: color-change 2s infinite;
+}
+
+
+@keyframes color-change {
+	0% { color: #FFCCCB; }
+	14.285% { color: #FFD580; }
+	28.571% { color: #FDE992; }
+	42.857% { color: #C9FEC9; } 
+	57.142% { color: #4FC3F7; }
+	71.428% { color: #D2A0F9; }
+	85.714% { color: #FA90E8; }
+	99.999% { color: #FFC8C4; }
+}
