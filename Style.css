@@ -2,7 +2,8 @@ body {
   background: url(Background.png);
   background-repeat: repeat;
   background-size: 100% auto;
-  font-family: sans-serif;
+  font-family: "Pixel Operator";
+  font-size: 135%;
   color: white;
 }
 img {
@@ -15,7 +16,6 @@ img {
   margin-right: 30%;
   border: 2px dotted white;
   background-color: #000;
-  position: absolute;
   top: 0;
   height: 99.7%;
   text-align: center;
@@ -46,4 +46,9 @@ animation: color-change 2s infinite;
 	71.428% { color: #D2A0F9; }
 	85.714% { color: #FA90E8; }
 	99.999% { color: #FFC8C4; }
+}
+
+@font-face { 
+	font-family: "Pixel Operator";
+	src: url("font/PixelOperatorMono-Bold.ttf"); 
 }
