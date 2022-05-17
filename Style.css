@@ -6,14 +6,14 @@ body {
   font-size: 135%;
   color: white;
 }
-img {
+div#FakeSpamtonPng img{
   background-color: #Ffffff;
-  width: 95%;
+  border-left: 42px solid white;
 }
-  main {
-  width: 40%;
-  margin-left: 30%;
-  margin-right: 30%;
+  #main {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
   border: 2px dotted white;
   background-color: #000;
   top: 0;
@@ -23,8 +23,8 @@ img {
 ul {
   text-align: left;
 }
-  a:visited { 
-	color: #9ADDFB
+a { 
+	animation: color-change 2s infinite;
 }
 #Items {
   list-style-type: none;
@@ -51,4 +51,24 @@ animation: color-change 2s infinite;
 @font-face { 
 	font-family: "Pixel Operator";
 	src: url("font/PixelOperatorMono-Bold.ttf"); 
+}
+
+#BIG {
+	font-size: 200%;
+}
+
+header {
+	font-size: 400%;
+}
+
+div#FakeSpamtonPng {
+	padding: 4px;
+	background-image: url("rainbow.gif");
+	width: 80%;
+	margin: auto;
+	padding-top: 8px;
+}
+img {
+	border: 4px solid;
+	border-color: color-change 2s infinite;
 }
