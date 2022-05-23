@@ -1,0 +1,95 @@
+body {
+  background: url(Background.png);
+  background-repeat: repeat;
+  background-size: 100% auto;
+  font-family: "Pixel Operator";
+  font-size: 135%;
+  color: white;
+}
+div#FakeSpamtonPng img{
+  background-color: #Ffffff;
+  border-left: 42px solid white;
+}
+div#main {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px dotted white;
+  background-color: #000;
+  top: 0;
+  height: 99.7%;
+  text-align: center;
+}
+ul {
+  text-align: left;
+}
+a { 
+	animation: color-change 2s infinite;
+}
+#Items {
+  list-style-type: none;
+}
+a > img {
+	  width: 30%;
+}
+em { 
+animation: color-change 2s infinite;
+}
+
+
+@keyframes color-change {
+	0% { color: #FFCCCB; }
+	14.285% { color: #FFD580; }
+	28.571% { color: #FDE992; }
+	42.857% { color: #C9FEC9; }
+	57.142% { color: #4FC3F7; }
+	71.428% { color: #D2A0F9; }
+	85.714% { color: #FA90E8; }
+	99.999% { color: #FFC8C4; }
+}
+
+@font-face { 
+	font-family: "Pixel Operator";
+	src: url("font/PixelOperatorMono-Bold.ttf"); 
+}
+
+#BIG {
+	font-size: 200%;
+}
+
+header {
+	font-size: 400%;
+}
+
+div#FakeSpamtonPng {
+	padding: 4px;
+	background-image: url("rainbow.gif");
+	width: 80%;
+	margin: auto;
+	padding-top: 8px;
+}
+img {
+	border: 4px solid;
+	border-color: color-change 2s infinite;
+}
+
+article {
+	border: groove;
+	border-color: #ff1818;
+	padding: 10px;
+}
+
+aside {
+	float: right;
+}
+
+footer {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px dotted white;
+  background-color: #000;
+  top: 0;
+  height: 99.7%;
+  text-align: center;
+}

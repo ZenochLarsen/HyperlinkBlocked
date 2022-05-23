@@ -1,0 +1,56 @@
+body {
+  background: url(Background.png);
+  background-repeat: repeat;
+  background-size: 100% auto;
+  font-family: "Pixel Operator";
+  font-size: 113%;
+  color: #FFCCCB;
+}
+img {
+  background-color: #Ffffff;
+  width: 95%;
+}
+  main {
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  border: 2px groove white;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  animation: color-change 1.5s infinite;
+}
+h1 {
+  animation: color-change 1.5s infinite;
+}
+
+p {
+	animation: color-change 1.5s infinite;
+}
+@keyframes color-change {
+	0% { color: #C9FEC9; }
+	14.285% { color: #7DCBF5; }
+	28.571% { color: #D2A0F9; }
+	42.857% { color: #FA90E8; } 
+	57.142% { color: #FFC8C4; }
+	71.428% { color: #FFC75E; }
+	85.714% { color: #FFD15E; }
+	99.999% { color: #FFEA5E; }
+}
+ul {
+  text-align: left;
+}
+
+#Items {
+  list-style-type: none;
+}
+
+a > img {
+	  width: 30%;
+}
+
+@font-face { 
+	font-family: "Pixel Operator";
+	src: url("font/PixelOperatorMono-Bold.ttf"); 
+}
